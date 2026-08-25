@@ -39,7 +39,7 @@ public class AbaDesenvolvedores extends JDialog {
 	    
 	    JPanel painel = new JPanel();
 		painel.setPreferredSize(new Dimension(560, 970));
-		painel.setBackground(new Color(20, 20, 20));
+		painel.setBackground(new Color(200, 200, 200));
 		painel.setLayout(null);
         
         
@@ -54,13 +54,13 @@ public class AbaDesenvolvedores extends JDialog {
         JLabel lbTextoPedro = new JLabel("Pedro Pondian");
         lbTextoPedro.setFont(new Font("Century Gothic", Font.BOLD, 18));
         lbTextoPedro.setBounds(140, 25, 500, 30);
-        lbTextoPedro.setForeground(Color.WHITE);
+        lbTextoPedro.setForeground(Color.BLACK);
         painel.add(lbTextoPedro);
         
         JLabel lbDescPedro = new JLabel("Desenvolvedor");
         lbDescPedro.setFont(new Font("Century Gothic", Font.PLAIN, 14));
         lbDescPedro.setBounds(140, 45, 500, 30);
-        lbDescPedro.setForeground(Color.WHITE);
+        lbDescPedro.setForeground(Color.BLACK);
         painel.add(lbDescPedro);
         
         
@@ -76,13 +76,13 @@ public class AbaDesenvolvedores extends JDialog {
         JLabel lbTextoGustavo = new JLabel("Gustavo Severo");
         lbTextoGustavo.setFont(new Font("Century Gothic", Font.BOLD, 18));
         lbTextoGustavo.setBounds(140, 125, 500, 30);
-        lbTextoGustavo.setForeground(Color.WHITE);
+        lbTextoGustavo.setForeground(Color.BLACK);
         painel.add(lbTextoGustavo);
         
         JLabel lbDescGustavo = new JLabel("Desenvolvedor");
         lbDescGustavo.setFont(new Font("Century Gothic", Font.PLAIN, 14));
         lbDescGustavo.setBounds(140, 145, 500, 30);
-        lbDescGustavo.setForeground(Color.WHITE);
+        lbDescGustavo.setForeground(Color.BLACK);
         painel.add(lbDescGustavo);
         
         
@@ -97,13 +97,13 @@ public class AbaDesenvolvedores extends JDialog {
         JLabel lbTextoMiguel = new JLabel("Miguel Ornax");
         lbTextoMiguel.setFont(new Font("Century Gothic", Font.BOLD, 18));
         lbTextoMiguel.setBounds(140, 225, 500, 30);
-        lbTextoMiguel.setForeground(Color.WHITE);
+        lbTextoMiguel.setForeground(Color.BLACK);
         painel.add(lbTextoMiguel);
         
         JLabel lbDescMiguel = new JLabel("Desenvolvedor");
         lbDescMiguel.setFont(new Font("Century Gothic", Font.PLAIN, 14));
         lbDescMiguel.setBounds(140, 245, 500, 30);
-        lbDescMiguel.setForeground(Color.WHITE);
+        lbDescMiguel.setForeground(Color.BLACK);
         painel.add(lbDescMiguel);
         
         
@@ -118,13 +118,13 @@ public class AbaDesenvolvedores extends JDialog {
         JLabel lbTextoGuilas = new JLabel("Guilherme Rocha");
         lbTextoGuilas.setFont(new Font("Century Gothic", Font.BOLD, 18));
         lbTextoGuilas.setBounds(140, 325, 500, 30);
-        lbTextoGuilas.setForeground(Color.WHITE);
+        lbTextoGuilas.setForeground(Color.BLACK);
         painel.add(lbTextoGuilas);
         
         JLabel lbDescGuilas = new JLabel("Desenvolvedor");
         lbDescGuilas.setFont(new Font("Century Gothic", Font.PLAIN, 14));
         lbDescGuilas.setBounds(140, 345, 500, 30);
-        lbDescGuilas.setForeground(Color.WHITE);
+        lbDescGuilas.setForeground(Color.BLACK);
         painel.add(lbDescGuilas);
         
         

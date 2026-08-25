@@ -22,43 +22,43 @@ public class AbaGradeAulas extends JDialog {
 
 	    JPanel painel = new JPanel();
 		painel.setPreferredSize(new Dimension(560, 970));
-		painel.setBackground(new Color(20, 20, 20));
+		painel.setBackground(new Color(200, 200, 200));
 		painel.setLayout(null);
 		
 	    JLabel lbSegunda = new JLabel("Segunda-feira: Musculação");
 		lbSegunda.setFont(new Font("Century Gothic", Font.PLAIN, 18));
 	    lbSegunda.setBounds(180, 100, 300, 25);
-	    lbSegunda.setForeground(Color.WHITE);
+	    lbSegunda.setForeground(Color.BLACK);
 	    
 	    
 	    JLabel lbTerca   = new JLabel("Terça-feira: Arte Marcial");
 	    lbTerca.setFont(new Font("Century Gothic", Font.PLAIN, 18));
 	    lbTerca.setBounds(180, 120, 300, 25);
-	    lbTerca.setForeground(Color.WHITE);
+	    lbTerca.setForeground(Color.BLACK);
 	    
 	    
 	    JLabel lbQuarta  = new JLabel("Quarta-feira: Musculação");
 	    lbQuarta.setFont(new Font("Century Gothic", Font.PLAIN, 18));
 	    lbQuarta.setBounds(180, 140, 300, 25);
-	    lbQuarta.setForeground(Color.WHITE);
+	    lbQuarta.setForeground(Color.BLACK);
 	    
 	    
 	    JLabel lbQuinta  = new JLabel("Quinta-feira: Pilates");
 	    lbQuinta.setFont(new Font("Century Gothic", Font.PLAIN, 18));
 	    lbQuinta.setBounds(180, 160, 300, 25);
-	    lbQuinta.setForeground(Color.WHITE);
+	    lbQuinta.setForeground(Color.BLACK);
 	    
 	    
 	    JLabel lbSexta   = new JLabel("Sexta-feira: Yoga");
 	    lbSexta.setFont(new Font("Century Gothic", Font.PLAIN, 18));
 	    lbSexta.setBounds(180, 180, 300, 25);
-	    lbSexta.setForeground(Color.WHITE);
+	    lbSexta.setForeground(Color.BLACK);
 	    
 	    
 	    JLabel lbSabado  = new JLabel("Sábado: Musculação");
 	    lbSabado.setFont(new Font("Century Gothic", Font.PLAIN, 18));
 	    lbSabado.setBounds(180, 200, 300, 25);
-	    lbSabado.setForeground(Color.WHITE);
+	    lbSabado.setForeground(Color.BLACK);
 	    
 
 	    // botões

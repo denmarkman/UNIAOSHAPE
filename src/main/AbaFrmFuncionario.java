@@ -30,13 +30,13 @@ public class AbaFrmFuncionario extends JDialog {
 	    
 	    JPanel painel = new JPanel();
 		painel.setPreferredSize(new Dimension(560, 970));
-		painel.setBackground(new Color(20, 20, 20));
+		painel.setBackground(new Color(200, 200, 200));
 		painel.setLayout(null);
 		
 	    JLabel lbTitulo = new JLabel("Cadastrar Funcionário");
 	    lbTitulo.setFont(new Font("Century Gothic", Font.BOLD, 24));
 	    lbTitulo.setBounds(170, 30, 300, 25);
-	    lbTitulo.setForeground(Color.WHITE);
+	    lbTitulo.setForeground(Color.BLACK);
 	    painel.add(lbTitulo);
 	    
 	    
@@ -44,7 +44,7 @@ public class AbaFrmFuncionario extends JDialog {
 	    JLabel lbUsuario = new JLabel("Nome:");
 	    lbUsuario.setFont(new Font("Century Gothic", Font.PLAIN, 18));
 	    lbUsuario.setBounds(130, 100, 100, 25);
-	    lbUsuario.setForeground(Color.WHITE);
+	    lbUsuario.setForeground(Color.BLACK);
 	    painel.add(lbUsuario);
 		
 		JTextField txUsuario = new JTextField();
@@ -54,7 +54,7 @@ public class AbaFrmFuncionario extends JDialog {
 		JLabel lbEmail = new JLabel("Email:");
 		lbEmail.setFont(new Font("Century Gothic", Font.PLAIN, 18));
 		lbEmail.setBounds(130, 140, 100, 25);
-		lbEmail.setForeground(Color.WHITE);
+		lbEmail.setForeground(Color.BLACK);
 		painel.add(lbEmail);
 		
 		JTextField txEmail = new JTextField();
@@ -64,7 +64,7 @@ public class AbaFrmFuncionario extends JDialog {
 		JLabel lbCpf = new JLabel("CPF:");
 		lbCpf.setFont(new Font("Century Gothic", Font.PLAIN, 18));
 		lbCpf.setBounds(130, 180, 100, 25);
-		lbCpf.setForeground(Color.WHITE);
+		lbCpf.setForeground(Color.BLACK);
 		painel.add(lbCpf);
 		
 		JTextField txCpf = new JTextField();
@@ -74,7 +74,7 @@ public class AbaFrmFuncionario extends JDialog {
 		JLabel lbSenha = new JLabel("Senha:");
 		lbSenha.setFont(new Font("Century Gothic", Font.PLAIN, 18));
 		lbSenha.setBounds(130, 220, 100, 25);
-		lbSenha.setForeground(Color.WHITE);
+		lbSenha.setForeground(Color.BLACK);
 		painel.add(lbSenha);
 		
 		JPasswordField txSenha = new JPasswordField();
@@ -84,7 +84,7 @@ public class AbaFrmFuncionario extends JDialog {
 		JLabel lbConfirmSenha = new JLabel("Confirmar Senha:");
 		lbConfirmSenha.setFont(new Font("Century Gothic", Font.PLAIN, 18));
 		lbConfirmSenha.setBounds(40, 260, 300, 25);
-		lbConfirmSenha.setForeground(Color.WHITE);
+		lbConfirmSenha.setForeground(Color.BLACK);
 		painel.add(lbConfirmSenha);
 		
 		JPasswordField txConfirmSenha = new JPasswordField();
@@ -95,7 +95,7 @@ public class AbaFrmFuncionario extends JDialog {
 	    JLabel lbCargo = new JLabel("Cargo:");
 	    lbCargo.setFont(new Font("Century Gothic", Font.PLAIN, 18));
 	    lbCargo.setBounds(130, 300, 170, 25);
-	    lbCargo.setForeground(Color.WHITE);
+	    lbCargo.setForeground(Color.BLACK);
 	    painel.add(lbCargo);
 
 	    JComboBox<Object> cbCargo = new JComboBox<>();
@@ -109,14 +109,14 @@ public class AbaFrmFuncionario extends JDialog {
 		JRadioButton rbMasculino = new JRadioButton("Masculino");
 		JRadioButton rbFeminino = new JRadioButton("Feminino");
 		rbMasculino.setFont(new Font("Century Gothic", Font.BOLD, 18));
-		rbMasculino.setBackground(new Color(20, 20, 20));
+		rbMasculino.setBackground(new Color(200, 200, 200));
 		rbMasculino.setBounds(205, 340, 180, 25);
-		rbMasculino.setForeground(Color.WHITE);
+		rbMasculino.setForeground(Color.BLACK);
 		
 		rbFeminino.setFont(new Font("Century Gothic", Font.BOLD, 18));
-		rbFeminino.setBackground(new Color(20, 20, 20));
+		rbFeminino.setBackground(new Color(200, 200, 200));
 		rbFeminino.setBounds(205, 360, 180, 25);
-		rbFeminino.setForeground(Color.WHITE);
+		rbFeminino.setForeground(Color.BLACK);
 		
 		ButtonGroup grupoGenero = new ButtonGroup();
 		grupoGenero.add(rbMasculino);  

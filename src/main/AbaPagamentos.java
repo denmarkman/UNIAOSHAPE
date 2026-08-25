@@ -31,12 +31,12 @@ public class AbaPagamentos extends JDialog {
         
         JPanel painelPagar = new JPanel();
         painelPagar.setPreferredSize(new Dimension(560, 970));
-        painelPagar.setBackground(new Color(20, 20, 20));
+        painelPagar.setBackground(new Color(200, 200, 200));
         painelPagar.setLayout(null);
         
         JPanel painelAumentar = new JPanel();
         painelAumentar.setPreferredSize(new Dimension(560, 970));
-        painelAumentar.setBackground(new Color(20, 20, 20));
+        painelAumentar.setBackground(new Color(200, 200, 200));
         painelAumentar.setLayout(null);
 
         
@@ -46,12 +46,12 @@ public class AbaPagamentos extends JDialog {
         JLabel lbTitulo1 = new JLabel("Pagar Funcionário");
         lbTitulo1.setFont(new Font("Century Gothic", Font.BOLD, 24));
         lbTitulo1.setBounds(160, 20, 300, 30);
-        lbTitulo1.setForeground(Color.WHITE);
+        lbTitulo1.setForeground(Color.BLACK);
         painelPagar.add(lbTitulo1);
         
         JLabel lbNomeFuncionario = new JLabel("Nome do Funcionário:");
         lbNomeFuncionario.setFont(new Font("Century Gothic", Font.PLAIN, 16));
-        lbNomeFuncionario.setForeground(Color.WHITE);
+        lbNomeFuncionario.setForeground(Color.BLACK);
         lbNomeFuncionario.setBounds(120, 70, 180, 25);
         painelPagar.add(lbNomeFuncionario);
 
@@ -80,7 +80,7 @@ public class AbaPagamentos extends JDialog {
         // aba aumentar
         JLabel lbNomeFuncionario2 = new JLabel("Nome do Funcionário:");
         lbNomeFuncionario2.setFont(new Font("Century Gothic", Font.PLAIN, 16));
-        lbNomeFuncionario2.setForeground(Color.WHITE);
+        lbNomeFuncionario2.setForeground(Color.BLACK);
         lbNomeFuncionario2.setBounds(120, 70, 180, 25);
         painelAumentar.add(lbNomeFuncionario2);
 
@@ -91,12 +91,12 @@ public class AbaPagamentos extends JDialog {
         JLabel lbTitulo2 = new JLabel("Aumentar Funcionário");
         lbTitulo2.setFont(new Font("Century Gothic", Font.BOLD, 24));
         lbTitulo2.setBounds(130, 20, 300, 30);
-        lbTitulo2.setForeground(Color.WHITE);
+        lbTitulo2.setForeground(Color.BLACK);
         painelAumentar.add(lbTitulo2);
 
         JLabel lbQtdAumento = new JLabel("Qtd de aumento:");
         lbQtdAumento.setFont(new Font("Century Gothic", Font.PLAIN, 16));
-        lbQtdAumento.setForeground(Color.WHITE);
+        lbQtdAumento.setForeground(Color.BLACK);
         lbQtdAumento.setBounds(120, 140, 180, 25);
         painelAumentar.add(lbQtdAumento);
 
@@ -110,7 +110,7 @@ public class AbaPagamentos extends JDialog {
         JLabel lbNovoSalario = new JLabel("Novo salário: R$4600.00");
         lbNovoSalario.setFont(new Font("Century Gothic", Font.PLAIN, 16));
         lbNovoSalario.setBounds(170, 220, 300, 30);
-        lbNovoSalario.setForeground(Color.WHITE);
+        lbNovoSalario.setForeground(Color.BLACK);
         painelAumentar.add(lbNovoSalario);
 
 		JButton btnAumentar = new JButton("Registrar Aumento");		

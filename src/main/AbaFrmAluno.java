@@ -29,13 +29,13 @@ public class AbaFrmAluno extends JDialog {
 	    
 	    JPanel painel = new JPanel();
 		painel.setPreferredSize(new Dimension(560, 970));
-		painel.setBackground(new Color(20, 20, 20));
+		painel.setBackground(new Color(200, 200, 200));
 		painel.setLayout(null);
 
 	    JLabel lbTitulo = new JLabel("Cadastrar Aluno");
 	    lbTitulo.setFont(new Font("Century Gothic", Font.BOLD, 24));
 	    lbTitulo.setBounds(190, 130, 300, 25);
-	    lbTitulo.setForeground(Color.WHITE);
+	    lbTitulo.setForeground(Color.BLACK);
 	    painel.add(lbTitulo);
 	    
 	    
@@ -43,7 +43,7 @@ public class AbaFrmAluno extends JDialog {
 	    JLabel lbUsuario = new JLabel("Nome:");
 	    lbUsuario.setFont(new Font("Century Gothic", Font.PLAIN, 18));
 	    lbUsuario.setBounds(130, 200, 100, 25);
-	    lbUsuario.setForeground(Color.WHITE);
+	    lbUsuario.setForeground(Color.BLACK);
 	    painel.add(lbUsuario);
 		
 		JTextField txUsuario = new JTextField();
@@ -53,7 +53,7 @@ public class AbaFrmAluno extends JDialog {
 		JLabel lbEmail = new JLabel("Email:");
 		lbEmail.setFont(new Font("Century Gothic", Font.PLAIN, 18));
 		lbEmail.setBounds(130, 240, 100, 25);
-		lbEmail.setForeground(Color.WHITE);
+		lbEmail.setForeground(Color.BLACK);
 		painel.add(lbEmail);
 		
 		JTextField txEmail = new JTextField();
@@ -63,7 +63,7 @@ public class AbaFrmAluno extends JDialog {
 		JLabel lbSenha = new JLabel("Senha:");
 		lbSenha.setFont(new Font("Century Gothic", Font.PLAIN, 18));
 		lbSenha.setBounds(130, 280, 100, 25);
-		lbSenha.setForeground(Color.WHITE);
+		lbSenha.setForeground(Color.BLACK);
 		painel.add(lbSenha);
 		
 		JPasswordField txSenha = new JPasswordField();
@@ -73,7 +73,7 @@ public class AbaFrmAluno extends JDialog {
 		JLabel lbConfirmSenha = new JLabel("Confirmar Senha:");
 		lbConfirmSenha.setFont(new Font("Century Gothic", Font.PLAIN, 18));
 		lbConfirmSenha.setBounds(40, 320, 300, 25);
-		lbConfirmSenha.setForeground(Color.WHITE);
+		lbConfirmSenha.setForeground(Color.BLACK);
 		painel.add(lbConfirmSenha);
 		
 		JPasswordField txConfirmSenha = new JPasswordField();
@@ -83,14 +83,14 @@ public class AbaFrmAluno extends JDialog {
 		JRadioButton rbMasculino = new JRadioButton("Masculino");
 		JRadioButton rbFeminino = new JRadioButton("Feminino");
 		rbMasculino.setFont(new Font("Century Gothic", Font.BOLD, 18));
-		rbMasculino.setBackground(new Color(20, 20, 20));
+		rbMasculino.setBackground(new Color(200, 200, 200));
 		rbMasculino.setBounds(205, 360, 180, 25);
-		rbMasculino.setForeground(Color.WHITE);
+		rbMasculino.setForeground(Color.BLACK);
 		
 		rbFeminino.setFont(new Font("Century Gothic", Font.BOLD, 18));
-		rbFeminino.setBackground(new Color(20, 20, 20));
+		rbFeminino.setBackground(new Color(200, 200, 200));
 		rbFeminino.setBounds(205, 380, 180, 25);
-		rbFeminino.setForeground(Color.WHITE);
+		rbFeminino.setForeground(Color.BLACK);
 		
 		ButtonGroup grupoGenero = new ButtonGroup();
 		grupoGenero.add(rbMasculino);  

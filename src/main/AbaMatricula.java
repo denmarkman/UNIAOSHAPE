@@ -21,39 +21,39 @@ public class AbaMatricula extends JDialog {
 
 	    JPanel painel = new JPanel();
 		painel.setPreferredSize(new Dimension(560, 970));
-		painel.setBackground(new Color(20, 20, 20));
+		painel.setBackground(new Color(200, 200, 200));
 		painel.setLayout(null);
 
 	    JLabel lbTitulo = new JLabel("Matrícula");
 	    lbTitulo.setFont(new Font("Century Gothic", Font.BOLD, 24));
 	    lbTitulo.setBounds(220, 30, 300, 25);
-	    lbTitulo.setForeground(Color.WHITE);
+	    lbTitulo.setForeground(Color.BLACK);
 	    painel.add(lbTitulo);
 	    
 	    
 	    
 	    JLabel lbtexto1 = new JLabel("codAluno   nomeAluno                           planoAluno");
-	    lbtexto1.setFont(new Font("Century Gothic", Font.PLAIN, 16));
+	    lbtexto1.setFont(new Font("Century Gothic", Font.BOLD, 16));
 	    lbtexto1.setBounds(50, 70, 600, 25);
-	    lbtexto1.setForeground(Color.WHITE);
+	    lbtexto1.setForeground(Color.BLACK);
 	    painel.add(lbtexto1);
 	    
 	    JLabel lbtexto2 = new JLabel("ALUNO 1 -- PEDRO PONDIAN NETO -- Solo");
 	    lbtexto2.setFont(new Font("Century Gothic", Font.PLAIN, 16));
 	    lbtexto2.setBounds(50, 100, 600, 25);
-	    lbtexto2.setForeground(Color.WHITE);
+	    lbtexto2.setForeground(Color.BLACK);
 	    painel.add(lbtexto2);
 	    
 	    JLabel lbtexto3 = new JLabel("ALUNO 2 -- MIGUEL ORNAX                -- Familia");
 	    lbtexto3.setFont(new Font("Century Gothic", Font.PLAIN, 16));
 	    lbtexto3.setBounds(50, 120, 600, 25);
-	    lbtexto3.setForeground(Color.WHITE);
+	    lbtexto3.setForeground(Color.BLACK);
 	    painel.add(lbtexto3);
 	    
 	    JLabel lbtexto4 = new JLabel("ALUNO 3 -- DOUGLAS ORNAX            -- Familia");
 	    lbtexto4.setFont(new Font("Century Gothic", Font.PLAIN, 16));
 	    lbtexto4.setBounds(50, 140, 600, 25);
-	    lbtexto4.setForeground(Color.WHITE);
+	    lbtexto4.setForeground(Color.BLACK);
 	    painel.add(lbtexto4);
 	    
 	    

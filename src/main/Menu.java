@@ -39,7 +39,7 @@ public class Menu extends JFrame {
 		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
 		this.setLocationRelativeTo(null);
 		this.setExtendedState(MAXIMIZED_BOTH);
-		this.getContentPane().setBackground(new Color(14, 14, 14));
+		this.getContentPane().setBackground(new Color(200, 200, 200));
 		this.setLayout(new FlowLayout(FlowLayout.CENTER, 0, 0));
 		
 		// barra de menu
@@ -83,7 +83,7 @@ public class Menu extends JFrame {
         
 	    JPanel painel = new JPanel();
 		painel.setPreferredSize(new Dimension(560, 1100));
-		painel.setBackground(new Color(20, 20, 20));
+		painel.setBackground(new Color(190, 190, 190));
 		painel.setLayout(null);
 		
         iconeLogoLogin = new ImageIcon(localLogoLogin);
@@ -95,17 +95,17 @@ public class Menu extends JFrame {
         painel.add(lbLogo);
 
         
-        // aqui aqui!!!
+        
 		JLabel lbTituloLogin = new JLabel("Login");
 		lbTituloLogin.setFont(new Font("Century Gothic", Font.BOLD, 24));
 		lbTituloLogin.setBounds(260, 240, 100, 30);
-		lbTituloLogin.setForeground(Color.WHITE);
+		lbTituloLogin.setForeground(Color.BLACK);
 		painel.add(lbTituloLogin);
 		
 	    JLabel lbUsuario = new JLabel("Usuário:");
 	    lbUsuario.setFont(new Font("Century Gothic", Font.PLAIN, 18));
 	    lbUsuario.setBounds(130, 280, 100, 25);
-	    lbUsuario.setForeground(Color.WHITE);
+	    lbUsuario.setForeground(Color.BLACK);
 	    painel.add(lbUsuario);
 		
 		JTextField txUsuario = new JTextField();
@@ -116,7 +116,7 @@ public class Menu extends JFrame {
 		JLabel lbSenha = new JLabel("Senha:");
 		lbSenha.setFont(new Font("Century Gothic", Font.PLAIN, 18));
 		lbSenha.setBounds(130, 320, 100, 25);
-		lbSenha.setForeground(Color.WHITE);
+		lbSenha.setForeground(Color.BLACK);
 		painel.add(lbSenha);
 		
 		JPasswordField txSenha = new JPasswordField();
@@ -135,7 +135,7 @@ public class Menu extends JFrame {
 		// depois de estar logado
 		JLabel lbTitulo = new JLabel();
 		lbTitulo.setFont(new Font("Century Gothic", Font.BOLD, 28));
-		lbTitulo.setForeground(Color.WHITE);
+		lbTitulo.setForeground(Color.BLACK);
 		lbTitulo.setBounds(30, 30, 600, 35);
 		lbTitulo.setVisible(false);
 		this.add(lbTitulo);
@@ -143,8 +143,8 @@ public class Menu extends JFrame {
 		JLabel lbDescricao = new JLabel(
 				"Você é uma conta GERENTE, portanto tem acesso a todas as telas do sistema."
 				);
-		lbDescricao.setFont(new Font("Century Gothic", Font.ITALIC, 18));
-		lbDescricao.setForeground(Color.WHITE);
+		lbDescricao.setFont(new Font("Century Gothic", Font.PLAIN, 18));
+		lbDescricao.setForeground(Color.BLACK);
 		lbDescricao.setBounds(30, 70, 700, 30);
 		lbDescricao.setVisible(false);
 		this.add(lbDescricao);
@@ -245,7 +245,7 @@ public class Menu extends JFrame {
             		lbLogoHome.setVisible(false);
             		lbDescricao.setVisible(false);
             		
-            		getContentPane().setBackground(new Color(14, 14, 14));
+            		getContentPane().setBackground(new Color(200, 200, 200));
             		setLayout(new FlowLayout(FlowLayout.CENTER, 0, 0));
             	}
             }
@@ -261,7 +261,7 @@ public class Menu extends JFrame {
 				lbLogoHome.setVisible(true);
 				lbDescricao.setVisible(true);
 				
-				getContentPane().setBackground(new Color(20, 20, 20));
+				getContentPane().setBackground(new Color(200, 200, 200));
 				setLayout(null);
 			}
         });
