@@ -24,6 +24,8 @@ public class AbaGradeAulas extends JDialog {
 		painel.setPreferredSize(new Dimension(560, 970));
 		painel.setBackground(new Color(200, 200, 200));
 		painel.setLayout(null);
+
+		
 		
 	    JLabel lbSegunda = new JLabel("Segunda-feira: Musculação");
 		lbSegunda.setFont(new Font("Century Gothic", Font.PLAIN, 18));
